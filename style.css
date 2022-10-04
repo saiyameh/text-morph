@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+body {
+	margin: 0px;
+	background-color: black;
+}
+#container {
+	position: absolute;
+	margin: auto;
+	width: 100vw;
+	height: 80pt;
+	top: 0;
+	bottom: 0;
+	filter: url(#threshold) blur(0.6px);
+}
+#text1, #text2 {
+	color: white;
+	position: absolute;
+	width: 100%;
+	display: inline-block;
+    font-family: 'Prompt', sans-serif;
+	font-size: 80pt;
+	text-align: center;
+	user-select: none;
+}
